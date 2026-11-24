@@ -29,7 +29,7 @@ Move from passive threat detection to active perimeter defense by placing a pfSe
 Completed the pfSense setup wizard (`pfSense.cdm.local`) and verified active `WAN` (`10.0.2.15`) and `LAN` (`192.168.56.254`) interfaces, DNS servers, and system resources on the dashboard.
 
 ![pfSense Setup Wizard Completed](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/1.png)
-![pfSense Status Dashboard](images/02-pfsense-dashboard.png)
+![pfSense Status Dashboard](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/2.png)
 
 ### 2. Malicious IP Alias & WAN Block Rule
 Created a `Malicious_IPs` host alias (`203.0.113.0/24`, `198.51.100.0/24`, `192.0.2.0/24`) and applied a WAN rule blocking traffic from those addresses with packet logging enabled.
