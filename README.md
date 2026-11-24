@@ -28,7 +28,7 @@ Move from passive threat detection to active perimeter defense by placing a pfSe
 ### 1. Initial pfSense Setup & Dashboard
 Completed the pfSense setup wizard (`pfSense.cdm.local`) and verified active `WAN` (`10.0.2.15`) and `LAN` (`192.168.56.254`) interfaces, DNS servers, and system resources on the dashboard.
 
-![pfSense Setup Wizard Completed](images/01-setup-wizard-complete.png)
+![pfSense Setup Wizard Completed](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/1.png)
 ![pfSense Status Dashboard](images/02-pfsense-dashboard.png)
 
 ### 2. Malicious IP Alias & WAN Block Rule
