@@ -42,7 +42,7 @@ Installed `pfBlockerNG-devel`, configured the `Block_Countries` GeoIP rule (`KP`
 
 ![pfBlockerNG-devel Package](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/5.png)
 ![pfBlockerNG GeoIP Block Countries](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/6.png)
-![LAN Firewall Rules and GeoIP Active](images/07-lan-rules-and-geoip-active.png)
+![LAN Firewall Rules and GeoIP Active](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/7.png)
 
 ### 4. Suricata IPS Installation, Inline Mode & Rule Sets
 Installed Suricata, enabled **Block Offenders** with **Inline Mode** on `LAN (em1)`, and enabled **ETOpen Emerging Threats** and **ABUSE.ch SSL Blacklist** rules.
