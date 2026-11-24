@@ -47,7 +47,7 @@ Installed `pfBlockerNG-devel`, configured the `Block_Countries` GeoIP rule (`KP`
 ### 4. Suricata IPS Installation, Inline Mode & Rule Sets
 Installed Suricata, enabled **Block Offenders** with **Inline Mode** on `LAN (em1)`, and enabled **ETOpen Emerging Threats** and **ABUSE.ch SSL Blacklist** rules.
 
-![Suricata Package Installation](images/08-suricata-install.png)
+![Suricata Package Installation](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/8.png)
 ![Suricata Block Offenders and Inline Mode](images/09-suricata-inline-mode.png)
 ![Suricata Enabled on LAN Interface](images/10-suricata-lan-enabled.png)
 ![ETOpen Emerging Threats Rules Enabled](images/11-suricata-etopen-rules.png)
