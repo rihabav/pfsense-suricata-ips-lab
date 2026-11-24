@@ -35,7 +35,7 @@ Completed the pfSense setup wizard (`pfSense.cdm.local`) and verified active `WA
 Created a `Malicious_IPs` host alias (`203.0.113.0/24`, `198.51.100.0/24`, `192.0.2.0/24`) and applied a WAN rule blocking traffic from those addresses with packet logging enabled.
 
 ![Malicious IPs Host Alias](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/3.png)
-![WAN Block Known Malicious IPs Rule](images/04-wan-block-rule.png)
+![WAN Block Known Malicious IPs Rule](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/4.png)
 
 ### 3. pfBlockerNG GeoIP Filtering & LAN Rules
 Installed `pfBlockerNG-devel`, configured the `Block_Countries` GeoIP rule (`KP`, `RU`, `CN`) with `Deny Both` and weekly updates, and verified LAN rules including `Explicit DNS` (port `53`) and `pfB_Block_Countries_v4` rules.
