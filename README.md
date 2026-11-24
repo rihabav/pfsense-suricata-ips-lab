@@ -40,7 +40,7 @@ Created a `Malicious_IPs` host alias (`203.0.113.0/24`, `198.51.100.0/24`, `192.
 ### 3. pfBlockerNG GeoIP Filtering & LAN Rules
 Installed `pfBlockerNG-devel`, configured the `Block_Countries` GeoIP rule (`KP`, `RU`, `CN`) with `Deny Both` and weekly updates, and verified LAN rules including `Explicit DNS` (port `53`) and `pfB_Block_Countries_v4` rules.
 
-![pfBlockerNG-devel Package](images/05-pfblockerng-package.png)
+![pfBlockerNG-devel Package](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/5.png)
 ![pfBlockerNG GeoIP Block Countries](images/06-geoip-block-countries.png)
 ![LAN Firewall Rules and GeoIP Active](images/07-lan-rules-and-geoip-active.png)
 
