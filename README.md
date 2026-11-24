@@ -41,7 +41,7 @@ Created a `Malicious_IPs` host alias (`203.0.113.0/24`, `198.51.100.0/24`, `192.
 Installed `pfBlockerNG-devel`, configured the `Block_Countries` GeoIP rule (`KP`, `RU`, `CN`) with `Deny Both` and weekly updates, and verified LAN rules including `Explicit DNS` (port `53`) and `pfB_Block_Countries_v4` rules.
 
 ![pfBlockerNG-devel Package](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/5.png)
-![pfBlockerNG GeoIP Block Countries](images/06-geoip-block-countries.png)
+![pfBlockerNG GeoIP Block Countries](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/6.png)
 ![LAN Firewall Rules and GeoIP Active](images/07-lan-rules-and-geoip-active.png)
 
 ### 4. Suricata IPS Installation, Inline Mode & Rule Sets
