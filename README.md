@@ -57,7 +57,7 @@ Installed Suricata, enabled **Block Offenders** with **Inline Mode** on `LAN (em
 Configured Ubuntu network settings via Netplan (`/etc/netplan/01-network-manager-all.yaml`) so internal lab traffic routes through the pfSense LAN gateway (`192.168.56.254`)[cite: 58, 60]. Verified on the **Suricata Alerts** dashboard that the inspection engine is actively monitoring `(LAN) LAN` traffic from `192.168.56.103` and logging baseline protocol/stream events[cite: 67].
 
 ![Ubuntu Netplan Routing Configuration](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/12.png)
-![Suricata LAN Baseline Traffic Alerts](images/14-suricata-lan-alerts.png)
+![Suricata LAN Baseline Traffic Alerts](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/13.png)
 
 ### 6. IPS Inline Blocking Verification (Lab Test Procedure)
 To validate active prevention beyond baseline protocol alerts:
