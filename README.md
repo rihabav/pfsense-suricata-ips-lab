@@ -34,7 +34,7 @@ Completed the pfSense setup wizard (`pfSense.cdm.local`) and verified active `WA
 ### 2. Malicious IP Alias & WAN Block Rule
 Created a `Malicious_IPs` host alias (`203.0.113.0/24`, `198.51.100.0/24`, `192.0.2.0/24`) and applied a WAN rule blocking traffic from those addresses with packet logging enabled.
 
-![Malicious IPs Host Alias](images/03-malicious-ip-alias.png)
+![Malicious IPs Host Alias](https://github.com/rihabav/pfsense-suricata-ips-lab/blob/main/3.png)
 ![WAN Block Known Malicious IPs Rule](images/04-wan-block-rule.png)
 
 ### 3. pfBlockerNG GeoIP Filtering & LAN Rules
